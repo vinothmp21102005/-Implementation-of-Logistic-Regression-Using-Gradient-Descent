@@ -5,10 +5,12 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 ## Algorithm
-1. import necessary python library and load the data set
-2. do the required data preprocessing and convert the type of features into category
-3. declare the theta value as random numbers and define sigmoid,loss,gradient_descent and prediction function
-4. calculate accuracy ,prediction and new prediction
+1. Set weights, bias, learning rate, and iterations.
+2. Load data, split into X and y, normalize features.
+3.  Apply sigmoid: ℎ(𝑥)
+4. Use gradient descent to update weights and bias iteratively.
+5.  Classify based on sigmoid output (>0.5→1,≤0.5→0).
+6.  Measure performance with accuracy or other metrics.
 ## Program:
 ```
 /*
